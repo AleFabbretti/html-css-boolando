@@ -12,6 +12,11 @@ a{
 main .container{
     margin-bottom: 50px;
 }
+span{
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
 /* common */
 .container{
     max-width: 1400px;
@@ -56,13 +61,64 @@ div .logo{
     justify-content: center;
 }
 main img{
-    max-width: 450px;
-    margin: 0 10px;
+    max-width: 446px;
+    padding: 5px;
+}
+.img-default{
+    display: block;
+}
+.img-hover{
+    display: none;
 }
 .body-shop{
     max-width: calc(100% / 3 - 20px);
     margin-top: 50px;
     margin-right: 10px;
+    position: relative;
+}
+.brand{
+    display: block;
+    margin-left: 10px;
+}
+.sostenibility{
+    background-color: green;
+    padding: 5px 8px;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+}
+.heart{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    top: 20px;
+    right: 5px;
+}
+.discount{
+    background-color: red;
+    padding: 8px 8px;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 5px;
+}
+.actual-prize{
+    color: red;
+}
+.old-prize{
+    text-decoration: line-through;
+}
+.sostenibility-6th{
+    background-color: green;
+    padding: 5px 8px;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 5px;
 }
 /* footer */
 
