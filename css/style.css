@@ -27,10 +27,12 @@ span{
 body{
     font-family: 'Roboto', sans-serif;
 }
-
 /* header */
 header{
     background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 header .row{
     display: flex;
@@ -59,6 +61,7 @@ div .logo{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 70px;
 }
 main img{
     max-width: 446px;
@@ -127,4 +130,26 @@ main img{
     display: block;
 }
 /* footer */
-
+footer{
+    background-color: black;
+    height: 100px;
+}
+footer h3{
+    color: white;
+    font-size: medium;
+    text-align: left;
+}
+footer a{
+    margin-right: 5px;
+    font-size: small;
+    margin-top: 30px;
+}
+footer .row{
+    display: flex;
+    justify-content: space-between;
+    max-height: 100px;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    line-height: 1.6;
+}
