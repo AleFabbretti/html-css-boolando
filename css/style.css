@@ -64,10 +64,10 @@ main img{
     max-width: 446px;
     padding: 5px;
 }
-.img-default{
+.default{
     display: block;
 }
-.img-hover{
+.hover{
     display: none;
 }
 .body-shop{
@@ -119,6 +119,12 @@ main img{
     position: absolute;
     bottom: 100px;
     left: 5px;
+}
+.body-shop:hover .default{
+    display: none;
+}
+.body-shop:hover .hover{
+    display: block;
 }
 /* footer */
 
